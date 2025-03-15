@@ -1,4 +1,4 @@
-def check_key(dictionary, key):
+def check_key(student_details):
     if find_key in student_details:
         print(f"{find_key}: was found")
     else:
@@ -13,4 +13,4 @@ student_details={
 }
 
 find_key=input("Enter a key to search:")
-check_key(student_details, find_key);
+check_key(student_details);
